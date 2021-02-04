@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<body>
+<div style="padding-left: 500px; padding-top: 100px;">
+  <form action="connect2.php" method="post" style="text-align: center; border: 5px solid cadetblue; width: 500px; height: 530px;background-color: lightblue">
+    <div style="padding-top: 20px; border: 1px; background-color: cadetblue">   
+       <h1 style="text-align: center;color: white;font-style: normal;font-size: 40px">Updation and deletion form</h1><br>
+    </div> 
+ <div style="padding-top: 50px">       
+  <label for="firstName" style="font-size: 18px;font-weight: 700">First name:</label><br>
+  <input type="text" id="firstName" name="firstName"><br>
+  <label for="lastName" style="font-size: 18px;font-weight: 700">Last name:</label><br>
+  <input type="text" id="lastName" name="lastName"><br><br>
+ </div> 
+  
+<div> 
+    <label for="purpose" style="font-size: 18px;font-weight: 700;padding-left: 60px">Choose a option:</label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  <select name="purpose" id="purpose">
+    <option value="Update">Update</option>
+    <option value="delete">Delete</option>
+  </select>
+</div>
+<div><br>
+  <label for="Section" style="font-size: 15px;font-weight: 700">Give data to delete or update (e.g DoB/email/contact no./address/adhar no./name) at a time one data only</label><br>
+  <input type="text" id="Section" name="Section"><br><br>
+    
+</div>
+  <div style="padding-top: 70px"> 
+     <input type="submit" value="Submit"  style="font-size: 15px;font-weight: 700;padding-left: 30px;padding-right: 30px">
+  </div>       
+   </form> 
+</div>
+
+</body>
+</html>
