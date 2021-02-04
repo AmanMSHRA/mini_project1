@@ -1,5 +1,4 @@
 <?php
-include_once("mini_project.html");
 $firstName = $_POST["firstName"];
 $lastName = $_POST["lastName"];
 $purpose = $_POST["purpose"];
