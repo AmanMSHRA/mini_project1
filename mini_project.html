@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+<body>
+    
+<div style="padding-left: 500px; padding-top: 50px; padding-bottom: 50px">
+<form action="connect.php" method="post" style="text-align: center; border: 5px solid cadetblue; width: 500px; height: 750px;background-color: lightblue">
+    <div style="padding-top: 20px; border: 1px; background-color: cadetblue;">
+        <h2 style="text-align: center;color: white;font-style: normal;font-size: 40px">Self-Identification Form</h2>
+    </div>
+    
+ <div style="padding-right: 300px">
+   <div style="padding-right: 90px; padding-top: 20px">
+      <label for="firstName" style="font-size: 15px;font-weight: 700">First name:</label><br>
+   </div>
+    
+  <input type="text" id="firstName" name="firstName"><br>
+</div>     
+    
+ <div style="padding-right: 300px">
+    <div style="padding-right: 90px; padding-top: 20px">
+       <label for="lastName" style="font-size: 15px;font-weight: 700">Last name:</label><br>
+    </div> 
+     
+  <input type="text" id="lastName" name="lastName"><br><br>
+</div>
+    
+ <div style="padding-right: 300px"> 
+    <div style="padding-right: 120px; padding-top: 20px">
+       <label for="email" style="font-size: 15px;font-weight: 700">Email:</label><br>
+    </div>      
+     
+  <input type="email" id="email" name="email"><br><br>
+ </div>
+    
+<div style="padding-right: 320px">
+    <div style="padding-right: 60px; padding-top: 20px">
+       <label for="birthdate" style="font-size: 15px;font-weight: 700">Date of birth:</label><br>
+    </div> 
+     
+  <input type="date" id="birthdate" name="birthdate"><br><br>
+</div>
+
+<div style="padding-right: 250px"> 
+    <label for="gender" style="font-size: 15px;font-weight: 700">Choose a gender:</label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  <select name="gender" id="gender">
+    <option value="Male">Male</option>
+    <option value="Female">Female</option>
+    <option value="Others">Others</option>
+  </select>
+</div>
+    
+<div style="padding-right: 300px">
+    <div style="padding-right: 90px; padding-top: 20px">
+       <label for="Address" style="font-size: 15px;font-weight: 700">Address:</label><br>
+    </div> 
+     
+  <input type="text" id="Address" name="Address"><br><br>
+</div>
+
+<div style="padding-right: 300px">
+    <div style="padding-right: 100px; padding-top: 20px">
+       <label for="Contact" style="font-size: 15px;font-weight: 700">Contact:</label><br>
+    </div> 
+     
+  <input type="text" id="Contact" name="Contact"><br><br>
+</div>
+
+<div style="padding-right: 300px">
+    <div style="padding-right: 60px; padding-top: 20px">
+       <label for="Adhar" style="font-size: 15px;font-weight: 700">Adhar card no:</label><br>
+    </div> 
+     
+  <input type="text" id="Adhar" name="Adhar"><br><br>
+</div>
+    
+   <div style="padding-top: 20px">
+     <input type="submit" value="Submit your information" style="font-size: 15px;font-weight: 700">
+   </div>
+    
+</form>
+  <button onclick="document.location='project2.html'" style="font-size: 15px;font-weight: 700">Request for Update/Delete</button>
+    
+</div>    
+    
+</body>
+</html>
